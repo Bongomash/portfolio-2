@@ -1,0 +1,110 @@
+/* Basic styling for the navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f1e1;
+    /* light beige */
+    padding: 1rem 2rem;
+}
+
+.background-container-1 {
+    background-color: #f4f1e1;
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    /* dark grey */
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #b52830;
+    /* dark red */
+}
+
+/* Styling for buttons (Take Away & Book Bord) */
+.nav-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.take-away {
+    background-color: #b52830;
+    /* dark red for Take Away */
+}
+
+.book-bord {
+    background-color: #3e3a39;
+    /* dark grey for Book Bord */
+}
+
+.nav-btn:hover {
+    opacity: 0.8;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styling for the fixed navigation bar */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    /* Ensures nav is above other elements */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    /* Adds some padding */
+}
+
+/* Adds margin to the top of the main content to prevent overlap with the nav */
+main {
+    margin-top: 80px;
+    /* Adjust based on the height of your header */
+}
+
+/* Hero image styles */
+.hero-image {
+    height: 400px;
+    /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* Change text color to white for better visibility */
+    text-align: center;
+    font-size: 2rem;
+    /* Adjust font size as needed */
+}

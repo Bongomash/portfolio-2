@@ -1,0 +1,228 @@
+/* Container for the three boxes */
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.box {
+    width: 30%;
+    text-align: center;
+    background-color: #f4f1e1;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+}
+
+.box h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Styling for the button */
+.button-container {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: #f4f1e1
+}
+
+.custom-btn {
+    padding: 0.75rem 2rem;
+    border: 2px solid #b52830;
+    /* Red border */
+    background-color: transparent;
+    color: #b52830;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.custom-btn:hover {
+    background-color: #b52830;
+    /* Red background on hover */
+    color: white;
+}
+
+/* Styling for the welcome section */
+.welcome-section {
+    text-align: center;
+    margin: 40px 0;
+    background-color: #f4f1e1
+}
+
+.welcome-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styling for the new child section */
+.child-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.child-section-image {
+    flex: 1;
+    text-align: center;
+}
+
+.child-section-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.child-section-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.child-section-content h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.child-section-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.child-section-content .cta-button {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.child-section-content .cta-button:hover {
+    background-color: red;
+    color: #fff;
+}
+
+/* Styling for the job section */
+.job-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f4f1e1
+}
+
+.job-section-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.job-section-content h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.job-section-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.job-section-content .cta-button {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-section-content .cta-button:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.job-section-image {
+    flex: 1;
+    text-align: center;
+}
+
+.job-section-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.child-section-image img,
+.job-section-image img {
+    width: 300px;
+    /* Bredde på billedet */
+    height: 300px;
+    /* Højde på billedet */
+    border-radius: 50%;
+    /* Rundt billede */
+    border: 4px solid red;
+    /* Rød kant */
+    object-fit: cover;
+    /* Bevar proportioner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Skygge for dybde */
+}
+
+
+.cta-button {
+    margin-top: 10px;
+    /* Juster afstand mellem titel og knap */
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Tilføj glidning */
+}
+
+.cta-button:hover {
+    background-color: red;
+    color: #fff;
+    /* Hvid tekst ved hover */
+}
